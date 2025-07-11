@@ -1,4 +1,5 @@
- <# Create CSV of users using this format:
+ <#
+ Create CSV of users using this format:
       Username,groupname
       User1,group
       User2,group
@@ -7,6 +8,8 @@
 
  Alternatively, if you are only applying one group, you can limit the CSV to just usernames and hardcode
  the Groupname in the -Identity parameter
+
+ Useful resource for a more intricate version of this script: https://www.alitajran.com/add-users-to-group-powershell/
  #>
  
  # Create variable $users and initialize with CSV of users
